@@ -1,6 +1,7 @@
 Linux Commands
 
 --File Commands
+
 	ls ===>> Directory listing
 	ls -al ===>> Formatted listing with hidden files
 	ls -lt ===>> Sorting the formatted listing by time modification
@@ -24,6 +25,7 @@ Linux Commands
 	------------------------------------------------------------------------
 
 --Process managment
+
 	ps ===>> To display the currently working processes
 	top ===>> Display all running process
 	kill pid ===>> Kill the process with given pid
@@ -35,6 +37,7 @@ Linux Commands
 	------------------------------------------------------------------------
 	
 --System info
+
 	date ===>> Show the current date and time
 	cal ===>> Show this month's calender
 	uptime ===>> Show current uptime
@@ -53,6 +56,7 @@ Linux Commands
 	---------------------------------------------------------------------------
 	
 --Searching
+
 	grep pattern file ===>> Search for pattern in file
 	grep -r pattern dir ===>> Search recursively for pattern in dir
 	command | grep pattern ===>> Search pattern in the output of a command
@@ -63,11 +67,13 @@ Linux Commands
 	----------------------------------------------------------------------------
 	
 --File Permission
+
 	chmod octal file ===>> change the permission of file to octal, which can be found separately for user, group, world by adding, 4-read(r), 2-write(w), 1-execute(x)
 	
 	----------------------------------------------------------------------------
 	
 --Compression
+
 	tar cf file.tar file ===>> Create tar named file.tar containing file
 	tar xf file.tar ===>> Extract the file from file.tar
 	tar czf file.tr.gz files ===>> Create a tar with Gzip compression
@@ -80,6 +86,7 @@ Linux Commands
 	----------------------------------------------------------------------------
 	
 --Network
+
 	ping host ===>> Ping host and output results
 	whois domain ===>> Get whois information for domains
 	dig domain ===>> Get DNS information for domain
@@ -90,6 +97,7 @@ Linux Commands
 	----------------------------------------------------------------------------
 	
 --Shortcuts
+
 	ctrl+c ===>> Halts the current command
 	ctrl+z ===>> Stop the current command, resume with fg in the foreground or bg in the background
 	ctrl+d ===>> Logout the current session, similar to exit
