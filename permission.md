@@ -27,7 +27,7 @@
     chmod u-w (NameDirectory) ===>> take w to Directory
     chmod g+wx (NameDirectory) ===>> g = group
     chmod o+rwx (NameDirectory) ===>> o = others
-    chmod 777 Directory
+    chmod -m777 Directory
 
 
 
