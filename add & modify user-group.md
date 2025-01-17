@@ -1,5 +1,5 @@
 # add & modify user 
-# add & modyfy group
+# add & modify group
 
 # users
 
