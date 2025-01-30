@@ -1,6 +1,6 @@
-Linux Commands
+# Linux Commands
 
---File Commands
+## File Commands
 
 	ls ===>> Directory listing
 	ls -al ===>> Formatted listing with hidden files
@@ -24,7 +24,7 @@ Linux Commands
 	
 	------------------------------------------------------------------------
 
---Process managment
+## Process managment
 
 	ps ===>> To display the currently working processes
 	top ===>> Display all running process
@@ -36,7 +36,7 @@ Linux Commands
 	
 	------------------------------------------------------------------------
 	
---System info
+## System info
 
 	date ===>> Show the current date and time
 	cal ===>> Show this month's calender
@@ -55,7 +55,7 @@ Linux Commands
 	
 	---------------------------------------------------------------------------
 	
---Searching
+## Searching
 
 	grep pattern file ===>> Search for pattern in file
 	grep -r pattern dir ===>> Search recursively for pattern in dir
@@ -66,13 +66,13 @@ Linux Commands
 	
 	----------------------------------------------------------------------------
 	
---File Permission
+## File Permission
 
 	chmod octal file ===>> change the permission of file to octal, which can be found separately for user, group, world by adding, 4-read(r), 2-write(w), 1-execute(x)
 	
 	----------------------------------------------------------------------------
 	
---Compression
+## Compression
 
 	tar cf file.tar file ===>> Create tar named file.tar containing file
 	tar xf file.tar ===>> Extract the file from file.tar
@@ -85,7 +85,7 @@ Linux Commands
 	
 	----------------------------------------------------------------------------
 	
---Network
+## Network
 
 	ping host ===>> Ping host and output results
 	whois domain ===>> Get whois information for domains
@@ -96,7 +96,7 @@ Linux Commands
 	
 	----------------------------------------------------------------------------
 	
---Shortcuts
+## Shortcuts
 
 	ctrl+c ===>> Halts the current command
 	ctrl+z ===>> Stop the current command, resume with fg in the foreground or bg in the background
