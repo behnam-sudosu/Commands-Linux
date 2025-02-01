@@ -28,4 +28,17 @@
 		netplan try or netplan apply
 		
 		sudo vim /etc/ssh/sshd_config
-			config file
+			config file	
+	unlink /etc/resolv.conf
+	vim /etc/resolv.conf
+		nameservers 8.8.8.8
+		nameservers 4.2.2.4
+	set interface
+	set ip
+	touch /home/behnam/.ssh/config
+		include /home/behnam/.ssh/conhfig.d/*.conf
+	config /home/behnam/.ssh/config.d
+		HostName srv1
+			Host 192.1681.1.110
+			Port 22
+			User behnam
