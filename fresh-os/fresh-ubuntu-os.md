@@ -48,3 +48,9 @@
 	fdisk
 	lvm
 	swap
+	aliases
+	
+	
+	
+	
+	
