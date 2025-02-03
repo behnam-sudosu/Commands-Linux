@@ -15,3 +15,7 @@
 	touch authorized_keys
 	or ssh-keygen -t RSA	
 	alias ===>> ll, poweroff, reboot, shutdown -p
+	
+	fdisk
+	lvm
+	swap
