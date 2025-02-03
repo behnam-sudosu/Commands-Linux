@@ -42,3 +42,9 @@
 			Host 192.1681.1.110
 			Port 22
 			User behnam
+			
+			
+			
+	fdisk
+	lvm
+	swap
