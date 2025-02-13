@@ -39,7 +39,7 @@
 		include /home/behnam/.ssh/conhfig.d/*.conf
 	config /home/behnam/.ssh/config.d
 		HostName srv1
-			Host 192.1681.1.110
+			Host 192.168.1.110
 			Port 22
 			User behnam
 			
