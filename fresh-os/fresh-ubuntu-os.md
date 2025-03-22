@@ -36,10 +36,10 @@
 	set interface
 	set ip
 	touch /home/behnam/.ssh/config
-		include /home/behnam/.ssh/conhfig.d/*.conf
+		include /home/behnam/.ssh/config.d/*.conf
 	config /home/behnam/.ssh/config.d
-		HostName srv1
-			Host 192.168.1.110
+		Host srv1
+			HostName 192.168.1.110
 			Port 22
 			User behnam
 			
