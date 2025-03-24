@@ -49,8 +49,6 @@
 #### chown (NameUser):(NameGroup) (FileName or DirectoryName)
 
 
-### add new one
-
 
 
 
