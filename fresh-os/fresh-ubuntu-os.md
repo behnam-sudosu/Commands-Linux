@@ -42,7 +42,8 @@
 			HostName 192.168.1.110
 			Port 22
 			User behnam
-			
+
+	scp -P4000 .bash_aliases ubuntu@192.168.1.115:/home/ubuntu
 			
 			
 	fdisk
