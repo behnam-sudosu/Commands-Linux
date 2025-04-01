@@ -131,6 +131,8 @@
     sed -i 'd21' file1
     sed -i '21i nameserver' file1
 
+    finish
+
 
 
 
