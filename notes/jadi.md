@@ -118,6 +118,18 @@
     ls x* m* &> output
     ls x* m* 1> output 2>&1
 
+    xeyes &
+    jobs
+    xclock
+    bg %
+    fg %
+    kill %
+    nohub ===>> like tmux
+    ps -aux -lf
+    mysqldump
+    regex
+    sed -i 'd21' file1
+    sed -i '21i nameserver' file1
 
 
 
