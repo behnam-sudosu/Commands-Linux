@@ -1,4 +1,4 @@
-notes from Milad Norouzi
+# notes from Milad Norouzi
 	unser ===>> unser variable
 	export (variable)
 	echo $? ===>> see error or wright
