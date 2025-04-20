@@ -87,3 +87,5 @@ notes from Milad Norouzi
 	#!/bin/bash ===>> make file sh
 	bash file ===>> no need x
 	bash -x file1 ===>> debug
+
+	
