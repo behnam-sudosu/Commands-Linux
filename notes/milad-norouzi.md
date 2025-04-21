@@ -87,5 +87,54 @@
 	#!/bin/bash ===>> make file sh
 	bash file ===>> no need x
 	bash -x file1 ===>> debug
+	chost
+	xhost - ===>> enable
+	xhost +192.168.1.100 ===>> can ssh to your desktop linux
+	passwd ===>> change curent user password
+	useradd -m ===>> create home directory
+	useradd -d /apt/behnam ===>> change home directory
+	useradd -c "user"===>> comment
+	useradd -s /bin/bash ===>> choose shell
+	usermod
+	userdel
+	usermod -L ===>> lock
+	usermod -U ===>> unlock then set password
+	id behnam
+	usermod -g behnam milad
+			   group  user
+	usermod -G ===>> append
+	usermod -aG sudo behnam ===>> add and ppend
+	userdel -r ===>> remove home directory
+	sla 5/9
+	dowtown
+	userdel -f ===>> delete all file
+	groupadd
+	group /etc/group
+	user /etc/passwd
+	sudoers /etc/sudoers
+	password /etc/shadow
+	chage -l behnam
+	getent passwd behnam ===>> like grep
+	vim /etc/crontab
+	crontab -a
+	at 15:30
+	atq
+	atrm
+	vim /etc/sysctl.conf ===>> linx as router
+	vim /etc/cron.allow
+	vim /etc/cron.deny
+	vim /etc/at.allow
+	vim /etc/at.deny
+	date +%Y -%m -%d -%H -%M:%s
+	timedatectl set-timezone
+	tzselect Asia/Tehran
+	locale
+	dpkg-reconfigure locales
+	hwclock ===>> use clock bios
+	shift + ctrl + v ===>> this is for markdown
+	```
+	ls -l
+	```
+	put command bettwen ``` 
+	tail -f /var/log/syslog
 
-	
