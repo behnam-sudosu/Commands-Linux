@@ -137,4 +137,22 @@
 	```
 	put command bettwen ``` 
 	tail -f /var/log/syslog
+	journalctl -f
+	cluster
+	journalctl -f | grep -v sda
+	vim /etc/nginx.conf
+
+	promoteos
+	ghrafano
+	alert manager 
+	log gather
+	stack over flow
+
+	log genaration
+		logger local1.warning this is test
+		logger local1.error this is test
+		logger local1.emergency this is test
+	
+	do-release-upgrade
+	curl "link"
 
