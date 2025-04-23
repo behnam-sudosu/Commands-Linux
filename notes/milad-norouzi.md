@@ -156,3 +156,27 @@
 	do-release-upgrade
 	curl "link"
 
+	NAT ===>> network address translation
+	mask ===>> in ip private if it wants got out
+	cat /etc/services ===>> show port
+	ifconfig -s ===>> summery
+	ifconfig -a ===>> all
+	ifconfig ens37 192.168.1.100
+	ifconfig ens37 192.168.1.100
+	ifconfig ens37 netmask 255.255.255.0
+	route -n
+	route add default gw 192.168.1.110
+	route del default gw 192.168.1.110
+	ip address show
+	ip addr add 192.168.1.150/24 dev ens37
+	ip addr del 192.168.1.150/24 dev ens37
+	ip link set ens37 down
+	ip link set ens37 up
+	ip link show
+	ip route show
+	ip route add 10.0.0.10 via 192.168.1.150 dev ens37
+	ip route add default via 192.168.1.100
+	ip route del default via 192.168.1.100
+	ping -i 0.5 google.com
+	ping -S ens37 8.8.8.8
+	ping -I ens37 8.8.8.8
