@@ -180,3 +180,25 @@
 	ping -i 0.5 google.com
 	ping -S ens37 8.8.8.8
 	ping -I ens37 8.8.8.8
+
+	/etc/netplan/*.yaml
+	netplan try
+	/etc/network/interfaces
+	systemctl restart network.service
+	/etc/sysconfig/network-scripts/ifcfg-ens37
+	systectl restart network
+
+	traceroute 8.8.8.8 or google.com
+	tracepath 8.8.8.8 or google.com
+	mtr 8.8.8.8 or google.com
+
+	netstat -atulnp ===>> show connection
+	telnet 192.168.1.100
+	telnet google.com 80 ===>> this is important
+	netcat -L 8090 ===>> nc
+	telnet 192.168.1.100 8090
+	nslookup @8.8.8.8 google.com
+	dig google.com
+	/etc/nsswitch.conf
+	diff file1 file2
+	nmap 192.168.1.100
