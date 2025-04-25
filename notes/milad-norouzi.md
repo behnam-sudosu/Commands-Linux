@@ -202,3 +202,7 @@
 	/etc/nsswitch.conf
 	diff file1 file2
 	nmap 192.168.1.100
+
+	iptable -nvL
+	fail2ban
+	
