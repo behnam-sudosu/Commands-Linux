@@ -49,4 +49,37 @@
     /usr/bin
     /usr/sbin
     export ===>> show invirement variable
+    dpkg-reconfigure firefox
+    yumdownloader --resolve openssh-clients
+    /etc/profile.d/*.sh ===>> scripts
+    /etc/bash.bashrc
+    .profile
+    .bashrc
+    cat > jimbo
+        ifconfig
+    ./jimbo
+    env
+        PATH=/
+    FIRST=salam
+    export FIRST
+    env
+    PATH=$PATH:/home/behnam ===>> don't need set aliasses
+    .bashrc ===>> change it
+    unset FIRST
+    apropos ===>> like man
+    mv -i ===>> ask befor
+    cp -i ===>> ask befor
+    mv -v ===>> more information
+    mv -v ===>> more information
+    rm -i ===>> ask befor
+    file * ===>> show material all file and directory
+    find -atime +2
+    find -ctime +2
+    find -mtime +2
+    ls 1> list.txt ===>> output
+    ls 2> list.txt ===>> error
+    ls *.mp3 > mp3 2> errormp4
+    2.&1
+    nohub sleep 444 & ===>> you can close shell
+    ps -aux
     
