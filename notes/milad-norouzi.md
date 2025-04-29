@@ -204,5 +204,6 @@
 	nmap 192.168.1.100
 
 	iptable -nvL
+	iptable -f ===>> flash
 	fail2ban
 	
