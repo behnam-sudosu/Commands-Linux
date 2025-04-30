@@ -82,4 +82,7 @@
     2.&1
     nohub sleep 444 & ===>> you can close shell
     ps -aux
+    grep -n ===>> number line
+    grep ^g file1 ===>> start with g
+    grep s$ file1 ===>> end with s
     
