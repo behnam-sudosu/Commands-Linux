@@ -131,4 +131,13 @@
     grep umask /etc/profile
         umask 022 ===>> mines number
     umask ===>> show all
-    
+    vim .profile
+        umask 022
+    sudo u+s file1
+    s=x  S!=x t=can't delete file
+    s= root excute
+    /bin ===>> command os
+    locate behnam
+    /etc/updatedb.conf
+    updatedb
+     
