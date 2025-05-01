@@ -85,4 +85,50 @@
     grep -n ===>> number line
     grep ^g file1 ===>> start with g
     grep s$ file1 ===>> end with s
+    swapon -s
+    mkswap /dev/sdb5
+    swapon /dev/sdb5
+    mkfs -t ext4 /dev/sdb2
+    mkfs -t xfs /dev/sdb2
+
+    login
+    sudo apt install slim
+    sudo apt install xdm
+    sudo apt install lxdm
+    sudo apt install sddm
+    sudo apt install gdm3
+    sudo apt install lightdm
+
+    dpkg-reconfigure lightdm
+    systemctl suspend
+    sudo apt install gnome-session-flashback
+
+    server
+    sudo systemctl disable gdm
+    sudo systemctl enable lightdm
+    mount /dev/sdb1 /tmp
+    mount ===>> show all
+    fsck /dev/sdb1
+    umount /dev/sdb1
+    xfs-repair /dev/sdb5
+
+    debugfs -w /dev/sdb2
+        rm file1 ===>> you have to know the inode number
+    undel <12> tt.txt
+
+    dump2fs /dev/sdb1 ===>> more information
+    tune2fs -0 has-journal /dev/sdb1 ===>> add journal to ext3
+    mount -t xfs /dev/sdb5 /tmp
+
+    quota
+
+    sudo chown root file1.txt
+    sudo chgrp root file1.txt
+    sudo chown root -R folder
+    sudo chown root:root file1
+    chmod u+x file1
+    -x folder ===>> you can't cd to folder
+    grep umask /etc/profile
+        umask 022 ===>> mines number
+    umask ===>> show all
     
