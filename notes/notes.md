@@ -52,8 +52,10 @@
     	cpuinfo
     	meminfo
     	uptime
-	file systems
+        file systems
+    tmp
 	sys
+
     tac
     uptime
     dev ===>> device
@@ -62,6 +64,10 @@
     lsusb
     lscpu ===>> see online or ofline
     lsusb -v ===>> more information
+    lshw
+
+    lsb-release -a
+    cat /etc/os-release
     
     command sub-command switch option
     
@@ -70,7 +76,32 @@
     ping -c 3 8.8.8.8
     ls --help
 
+    lsmod
+        remove
+        install
+        disable
+        enable
+    modprobe
+    proc/modules
+    metadata
+    supper block
+    boot loader
+    component ===>> pishniaz
+    
+    /var/log/syslog ===>> show all logs
+    /var/log/messages ===>> show all logs
+    dmesg ===>> kernel ring buffer
 
+    dhclient
 
+    /etc/sysconfig/network-script/ifcfg-ens33
+        onboot = yes
+    
+    openssh-server
+    ajormicrosoft
+    
+    dpkg = apt
+    rpm = yum
 
+    
     
