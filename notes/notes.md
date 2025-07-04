@@ -42,6 +42,32 @@
     web server ===>> nginx
     web service ===>> web site 
 
+    askicode
+    absulute path
+    cd -
+    blkid
+    uuid
+    date +%s
+    proc
+    	cpuinfo
+    	meminfo
+    	uptime
+	file systems
+	sys
+    tac
+    uptime
+    dev ===>> device
+    ls /dev | grep sda
+    
+    lsusb
+    lscpu ===>> see online or ofline
+    lsusb -v ===>> more information
+    
+    command sub-command switch option
+    
+    ls -ltrha
+    AUTHOR
+    ping -c 3 8.8.8.8
 
 
 
