@@ -68,7 +68,7 @@
     ls -ltrha
     AUTHOR
     ping -c 3 8.8.8.8
-
+    ls --help
 
 
 
