@@ -103,5 +103,20 @@
     dpkg = apt
     rpm = yum
 
-    
-    
+    udevadmin monitor
+    variable ===>> hw many history save
+
+    /usr/bin ===>> command
+    /usr/sbin ===>> command
+
+    replica ===>> backup
+
+    /var/log
+        syslog ===>> system log
+        kern.log ===>> kernel log
+        auth.log ===>> user log
+
+
+
+
+        
