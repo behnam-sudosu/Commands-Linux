@@ -157,8 +157,22 @@
     echo $PATH ===>> show direction save command
     ldd /user/bin/ls ===>> show list library dependency
     dependence resolve
-    packages.org
+    pkgs.org
     wget
     dpkg -i
+
+    halt ===>> poweroff
+    /etc/init.d/ufw restart ===>> use old sysadmin
+    backward compatible
+    
+    rsyslog ===>> show logs directory
+    rsync ===>> scp
+
+    lib ===>> mitoni masir librery bedi
+    ldd
+    /etc/ld.co-conf.d/ ===>> all library are here
+
+    ldconfig ===>> more information
+
     
         
