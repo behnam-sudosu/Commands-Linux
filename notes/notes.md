@@ -116,7 +116,49 @@
         kern.log ===>> kernel log
         auth.log ===>> user log
 
+    cat /etc/default/grub
+    /etc/init.d ===>> service are here
+    systemctl
+        stop
+        start
+        restart
+        reload
+        enable
+        disable
+    systemctl set-default
+    systemctl get-default
+    systemctl is-active ssh
+    systemctl is-inactive ssh
+    systemctl is-enabled ssh
+    systemctl is-disabled ssh
 
+    service
+        *.service
+    /etc/systemd/system
+    /usr/lib/systemd/system
+    service ufw status
+    netcat ===>> nc
+    nc -l 8090
+    
+    lsblk
+    swapon -s
+    swapoff /swap.img
+    swapon /swap.img
+    
+    pv ===>> pvdisplay
+    vg ===>> vgdisplay
+    lv ===>> lvdisplay
 
+    raid 1 or mirror
+    duplicate ===>> have two place
 
+    grub-mkconfig ===>> reganarate
+    which ls ===>> where is save file
+    echo $PATH ===>> show direction save command
+    ldd /user/bin/ls ===>> show list library dependency
+    dependence resolve
+    packages.org
+    wget
+    dpkg -i
+    
         
