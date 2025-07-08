@@ -174,5 +174,18 @@
 
     ldconfig ===>> more information
 
+    apt remove zip ===>> dpkg -r zip
+    atp purge zip ===>> dpkg -p zip
+    apt-cache search firefox
+
+    netcat ===>> nc
+    telnet ===>> monitor network
+
+    yum === dnf
+    yum check-update ===>> update
+    yum update ===>> upgrade
+    
+    
+
     
         
