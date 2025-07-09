@@ -184,6 +184,11 @@
     yum === dnf
     yum check-update ===>> update
     yum update ===>> upgrade
+
+    IAC ===>> infrustructure as code
+
+    yum install epel-release ===>> more repository
+    yum history ===>> who install and uninstall package
     
     
 
