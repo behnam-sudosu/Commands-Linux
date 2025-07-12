@@ -189,7 +189,28 @@
 
     yum install epel-release ===>> more repository
     yum history ===>> who install and uninstall package
+
+    plug ===>> vasl kardan
+
+    /sys ===>> HAL
+    /proc ===>> kernel
+    /proc/sys/net/ipv
+        IP-forward ===>> you can change your linux to router
+
+    lsmod modules kernel load
+    rmmod
+    modprobe -r (name) ===>> remove
+    modprobe (name) ===>> install
+    /etc/modules ===>> if you want to load every time
+    /etc/modprobe
+        *.conf
     
+    dmesg ===>> show all
+    /var/log/dmsg ===>> kernel ring buffer
+    /var/log/meessages ===>> centos
+    /var/log/syslog ===>> ubuntu
+
+    /sbin/init
     
 
     
