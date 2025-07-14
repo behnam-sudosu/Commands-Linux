@@ -210,8 +210,36 @@
     /var/log/meessages ===>> centos
     /var/log/syslog ===>> ubuntu
 
+    ftp server ===>> file transfer protocol ===>> protocoli ke mitone file jabeja kone
+    nfs ===>> network file system ===>> eshterak gozari file az tarigh shabake
+    smb ===>> windows
+
+    /etc/init.d ===>> all service is here
+    RC ===>> link be ine
     /sbin/init
     
+    HALT ===>> system goes down
+
+    upstart ===>> service, ssh stop
+    systemd
+    /etc/systemd/system
+    systemctl stop ssh
+    service ssh stop
+    /etc/init.d
+
+    primary
+    extended
+    logical
+    parted
+    MBR ===>> master boot record
+    chain loading
+    grub-install /dev/sdb1
+    grub-install /dev/sdb
+    grub-mkconfig > /boot/grub/grub.cfg
+    update-grub
+
+    ch ~/.local/share/keyrings
+        rm *.keyrings
 
     
         
