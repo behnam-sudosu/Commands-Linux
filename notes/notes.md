@@ -272,6 +272,15 @@
     type whereis which
     #!/bin/bash
 
+    MYMOOD=happy
+    echo $MYMOOD
+    env ===>> motaghayer mahaliro neshon mide
+    unset
+    set ===>>> motaghayer mahaliro namayesh mide
+    uname
+    !! ===>> akharin
+    !vim
+    !?chert? or ctrl + r ===>> ctrl + r aghabaghab mire
     PATH=$PATH:/tmp
 
     
