@@ -240,6 +240,39 @@
 
     ch ~/.local/share/keyrings
         rm *.keyrings
+    
+    sudo apt-mark hold (name)
+    sudo apt-mark unhold (name)
+
+    LD_LIBRARY_PATH
+    export ===>> motaghayer mohitiro namayesh mide
+
+    export LD_LIBRARY_PATH=/home/behnam/lib
+
+    yum upgrade
+
+    stdin
+    stdout
+    stderr
+
+    cat .profile
+    cat /etc/profile
+    cat /etc/bash.bashrc
+    cat .bashrc
+
+    ls ; echo dine
+    ||
+    &&
+    echo $PATH
+    echo $SHELL
+    echo $$
+    echo $?
+
+    PATH
+    type whereis which
+    #!/bin/bash
+
+    PATH=$PATH:/tmp
 
     
         
