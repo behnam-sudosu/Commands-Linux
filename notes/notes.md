@@ -284,4 +284,22 @@
     PATH=$PATH:/tmp
 
     
-        
+    ctrl + d ===>> dastoro mibande
+    ctrl + c ===>> dastoro miyad biron
+
+    split -l2 namefile ===>> khat
+    split -b40 namefile ===>> hajm
+
+    head
+    tail
+    nl
+    cat -n
+    sort -n uniq -c -u -d
+    cut -f2 -d" " namefile
+
+    sed 's/yes/no/g' name file
+    tr translate
+
+
+
+    
