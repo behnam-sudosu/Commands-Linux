@@ -300,6 +300,22 @@
     sed 's/yes/no/g' name file
     tr translate
 
+    cp -i ===>> interactive
+    cp -b ===>> backup
+    ls -L ===>> zir majmoeharo namayesh mide
 
+    find -atime ===>> read
+    find -ctime ===>> change
+    find -mtime ===>> mohtavaavaz beshe
+    -6 ===>> 6 roz ghabl ta be alan
+    +6 ===>> 6 roz ghabl tabe ghablesh
+    ls ===>> -dils
 
+    file ===>> jens file
+    gzip
+    gunzip
+    bzip2
+    bunzip2
+
+    dd if=/dev/zerp of=1g.test bs=100M count=1
     
