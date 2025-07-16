@@ -319,3 +319,24 @@
 
     dd if=/dev/zerp of=1g.test bs=100M count=1
     
+    ls 1> file1
+    ls 2> file1
+    ls &> file1
+    
+    /dev/null
+    tr ' ' ',' < uses
+
+    jobs
+    nohub
+    nohub ping 4.2.2.4
+    ps -ef | grep sleep
+    ps -aux
+    ps -aux | gresp sleep
+
+    top
+    free
+    uptie
+    renice -n 19 ID
+    regular expression
+    regex
+    sed -r "s/^a/b/g" file1
