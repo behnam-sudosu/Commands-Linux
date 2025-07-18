@@ -340,3 +340,8 @@
     regular expression
     regex
     sed -r "s/^a/b/g" file1
+
+    echo " " > file
+    tr
+    cli ===>> command line
+    
