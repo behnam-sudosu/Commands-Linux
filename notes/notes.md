@@ -3,8 +3,8 @@
     discountinu
 
     change log direction
-    vim /etc/rsyslog.d/50..
-        cron .*
+        vim /etc/rsyslog.d/50..
+            cron .*
 
     zabix
     promethos
@@ -345,3 +345,33 @@
     tr
     cli ===>> command line
     
+    yes > file1
+    sed -i "21i nameserver 8.8.8.8" resolv.conf ===>> add new line
+    sed -i "21d" resolv.conf ===>> delete line
+
+    stat file1
+    ls ???
+
+    vim
+        :new /home/behnam/file1
+        :!ls
+        :tabnew
+        :tabnext
+        ctrl + w ===>> switch between tab
+        vimdiff file1 file2
+
+    !! ===>> excute last command
+
+    mariadb
+    mongo
+    poskersql
+    redis
+    cadandra
+    kockroch
+
+    uname
+    whoami
+
+    sort -k2 file1 ===>> with culeme
+    sort -n -k2 file1 ===>> number
+    sort -r -n -k2 file1 ===>> reverse
