@@ -92,6 +92,9 @@
 	tracepath
 	netstat -ntulp
 	mtu
+
+    ping 8.8.8.8 ===>> ip resolv mikone
+	ping google.com ===>> dns moshkel dare
     	
     	
     	
