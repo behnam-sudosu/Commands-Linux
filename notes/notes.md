@@ -24,7 +24,7 @@
     oracle
     mssql 
 
-    mix inviorment
+    mix enviorment
     intigerate ===>> ba ham yeki kardan
 
     SRE ===>> site reliable engineer
@@ -297,7 +297,7 @@
     sort -n uniq -c -u -d
     cut -f2 -d" " namefile
 
-    sed 's/yes/no/g' name file
+    sed 's/yes/no/g' namefile
     tr translate
 
     cp -i ===>> interactive
@@ -317,7 +317,7 @@
     bzip2
     bunzip2
 
-    dd if=/dev/zerp of=1g.test bs=100M count=1
+    dd if=/dev/zero of=1g.test bs=100M count=1
     
     ls 1> file1
     ls 2> file1
@@ -375,3 +375,8 @@
     sort -k2 file1 ===>> with culeme
     sort -n -k2 file1 ===>> number
     sort -r -n -k2 file1 ===>> reverse
+
+
+
+
+
